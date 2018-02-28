@@ -1,3 +1,7 @@
 rootProject.name = 'ReactNativeMaster'
+include ':react-native-library-sample'
+project(':react-native-library-sample').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-library-sample/android')
+include ':react-native-library-sample'
+project(':react-native-library-sample').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-library-sample/android')
 
 include ':app'
