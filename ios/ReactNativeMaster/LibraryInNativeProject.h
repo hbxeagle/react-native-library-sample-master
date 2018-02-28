@@ -8,6 +8,6 @@
 
 #import <React/RCTBridgeModule.h>
 
-@interface LibraryInNativeProject : NSObject
+@interface LibraryInNativeProject : NSObject <RCTBridgeModule>
 
 @end
