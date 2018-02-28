@@ -9,8 +9,12 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  NativeModules
 } from 'react-native';
+
+const LibraryInNativeProject = NativeModules.LibraryInNativeProject;
+LibraryInNativeProject.addEvent('Birthday Party', '4 Privet Drive, Surrey');
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
